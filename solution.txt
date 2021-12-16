@@ -1,0 +1,59 @@
+ACT1.SH
+Last login: Wed Dec 15 17:14:38 on ttys000
+➜  ~ sei
+➜  sei delivrables
+zsh: command not found: delivrables
+➜  sei deliverables
+➜  deliverables mkdir Star_Wars
+➜  deliverables git clone https://git.generalassemb.ly/nabiladigo/Star_Wars.git
+Cloning into 'Star_Wars'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 15 (delta 2), reused 15 (delta 2), pack-reused 0
+   Unpacking objects: 100% (15/15), done.
+➜  deliverables ls
+   Star_Wars
+➜  deliverables Star_Wars
+➜  Star_Wars git:(main) code .
+   code-alongs
+   star_wars1
+   star_wars
+   act1.sh
+   code .
+   sei
+   code-alongs
+   Star_Wars
+   mkdir star_wars
+   cd star_wars
+   mkdir empire rebellion
+   empire
+   touch darth_vader.txt
+   darth_vader
+   echo "...heavy breathing..." > darth_vader.txt
+   code .
+   touch emperor_palpatine,txt
+   mkdir death_star
+   mv ~/darth_vader.txt/death_star
+   mv ~/darth_vader.txt ~/death_star
+   mv ~/star_wars/empire/darth_vader.txt ~/empire/death_star
+   mv ~/star_wars/empire/darth_vader.txt ~/empire/death_stars/
+   mv ~/empire/darth_vader.txt/ ~death_star/darth_stars/
+   mv darth_vader.txt death_star/
+
+
+  ACT2>SH
+   Last login: Wed Dec 15 19:05:22 on ttys000
+➜  ~ sei
+➜  sei deliverables
+➜  deliverables cd star_wars
+➜  star_wars git:(main) ✗ act2.sh
+zsh: command not found: act2.sh
+➜  star_wars git:(main) ✗ rebellion
+➜  rebellion git:(main) ✗ echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+➜  rebellion git:(main) ✗ touch obi_wan
+➜  rebellion git:(main) ✗ touch luke_skywalker.txt
+➜  rebellion git:(main) ✗ mkdir millenium_falcon
+➜  rebellion git:(main) ✗ cd millenium_falcon
+➜  rebellion git:(main) ✗ mv luke_skywalker.txt obi_wan.txt  princess_leia.txt millenium_falcon/
+➜  star_wars git:(main) ✗ mv rebellion/millenium_falcon empire/death_star/millenium_falcon
