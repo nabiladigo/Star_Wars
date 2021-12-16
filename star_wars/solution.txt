@@ -77,3 +77,58 @@ To https://git.generalassemb.ly/nabiladigo/Star_Wars.git
    9b7c4aa..d0b96bb  main -> main
 
    ACT3.sh
+
+
+
+ Star_Wars git:(main) ✗ mv death_star/millenium_falcon/* death_star
+➜  Star_Wars git:(main) ✗ star_wars
+➜  star_wars git:(main) ✗ empire
+➜  empire git:(main) ✗ deat_star
+zsh: command not found: deat_star
+➜  empire git:(main) ✗ death_star
+➜  death_star git:(main) ✗ rm obi_wan.txt
+➜  death_star git:(main) ✗ mv chewbaccca.tx luke_skywalker.txt han_solo.txt princess_leia.txt millenium_falcon
+mv: rename chewbaccca.tx to millenium_falcon/chewbaccca.tx: No such file or directory
+➜  death_star git:(main) ✗ mv chewbaccca.txt luke_skywalker.txt han_solo.txt princess_leia.txt millenium_falcon 
+mv: rename chewbaccca.txt to millenium_falcon/chewbaccca.txt: No such file or directory
+mv: luke_skywalker.txt: No such file or directory
+mv: han_solo.txt: No such file or directory
+mv: princess_leia.txt: No such file or directory
+➜  death_star git:(main) ✗ mv empire/dea
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  death_star git:(main) ✗ mv millenium_falcon rebellion
+➜  death_star git:(main) ✗ mv darth_vader.txt ..
+➜  death_star git:(main) ✗ cd star_wars
+cd: no such file or directory: star_wars
+➜  death_star git:(main) ✗ cd..
+zsh: command not found: cd..
+➜  death_star git:(main) ✗ cd empire
+cd: no such file or directory: empire
+➜  death_star git:(main) ✗ rm -rf death_star
+➜  Star_Wars git:(main) ✗ git add .
+➜  Star_Wars git:(main) ✗ git commit -m "update act3.sh"
+[main de30e67] update act3.sh
+ 12 files changed, 25 insertions(+), 5 deletions(-)
+ delete mode 100644 empire/death_star/millenium_falcon/obi_wan.txt
+ rename README.md => star_wars/README.md (100%)
+ rename act1.sh => star_wars/act1.sh (96%)
+ rename act2.sh => star_wars/act2.sh (99%)
+ rename act3.sh => star_wars/act3.sh (94%)
+ rename {empire/death_star => star_wars/empire}/darth_vader.txt (100%)
+ rename {empire => star_wars/empire}/emperor_palpatine,txt (100%)
+ rename {empire/death_star => star_wars/rebellion}/millenium_falcon/chewbacca.txt (100%)
+ rename {empire/death_star => star_wars/rebellion}/millenium_falcon/han_solo.txt (100%)
+ rename {empire/death_star => star_wars/rebellion}/millenium_falcon/luke_skywalker.txt (100%)
+ rename {empire/death_star => star_wars/rebellion}/millenium_falcon/princess_leia.txt (100%)
+ rename solution.txt => star_wars/solution.txt (65%)
+➜  Star_Wars git:(main) git push origin main
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 2.81 KiB | 1.40 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://git.generalassemb.ly/nabiladigo/Star_Wars.git
+   d0b96bb..de30e67  main -> main
+➜  Star_Wars git:(main) 
+
