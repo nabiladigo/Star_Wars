@@ -55,5 +55,25 @@ zsh: command not found: act2.sh
 ➜  rebellion git:(main) ✗ touch luke_skywalker.txt
 ➜  rebellion git:(main) ✗ mkdir millenium_falcon
 ➜  rebellion git:(main) ✗ cd millenium_falcon
-➜  rebellion git:(main) ✗ mv luke_skywalker.txt obi_wan.txt  princess_leia.txt millenium_falcon/
+➜  rebellion git:(main) ✗ mv luke_skywalker.txt obi_wan.txt  princess_leia.txt millenium_falcon
 ➜  star_wars git:(main) ✗ mv rebellion/millenium_falcon empire/death_star/millenium_falcon
+➜  Star_Wars git:(main) ✗ git add .
+➜  Star_Wars git:(main) ✗ git commit -m "update act2.sh"
+[main d0b96bb] update act2.sh
+ 8 files changed, 69 insertions(+), 9 deletions(-)
+ rename rebellion/princess_leia.txt => empire/death_star/millenium_falcon/chewbacca.txt (100%)
+ create mode 100644 empire/death_star/millenium_falcon/han_solo.txt
+ create mode 100644 empire/death_star/millenium_falcon/luke_skywalker.txt
+ create mode 100644 empire/death_star/millenium_falcon/obi_wan.txt
+ create mode 100644 empire/death_star/millenium_falcon/princess_leia.txt
+➜  Star_Wars git:(main) git push origin main
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.64 KiB | 1.64 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://git.generalassemb.ly/nabiladigo/Star_Wars.git
+   9b7c4aa..d0b96bb  main -> main
+
+   ACT3.sh
